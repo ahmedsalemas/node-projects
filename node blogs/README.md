@@ -1,39 +1,28 @@
-# Getting Started with Create React App
+## node-blogs project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This is a blogs library that let users do multiple functionalities :-
 
-## marioplan project
-
-### This is a projects management tool that let users do multiple functionalities :-
-
-1) SignUp 
-2) SignIn
-3) SignOut
-4) Create projects
-5) View other users projects in dashboard
-6) View project detailes
+1) add blogs
+2) delete blogs
+3) view blogs
 
 
 ### This project was built using :-
 
-### 1) React & Redux (frontend)
+### 1) ejs for the views (frontend)
 
-- React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. 
-- Redux facilitate state management as it is a central data store for all app data and any component can access data from it.
-- Thunk to use Async code and return functions in actions.
-- React router V6 which is a fully-featured client and server-side routing library for React.
-- Higher-order component (HOC) is an advanced technique in React for reusing component logic. 
-- Hooks let you hook into React state and lifecycle features from function components. Hooks don't work inside classes — they let us use React without classes. 
-- moment which is a date format library
+- EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. it is server-side rendring that take EJS file and translate it using EJS view   engine to a HTML page and send it to the browser
 
-### 2) Firebase (backend)
+### 2) nodeJS, Express, mongoDB & mongoose (backend)
 
-- I have used firestore and connect it with redux store to handle my data using 'react redux firebase' library.
-- I have used firebase Authentication to handle user signin,signup and signout.
-- I have used firebase hostig service.
+- Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser
+- Is a framework for Node.js, it simplifies the usage of Node.js and make our code easier to read. it help us in routing, requests, responses, server-side logic
+- MongoDB is a database solution, MongoDB is a NoSQL database engine which allows us to store documents in so-called collections
+- Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.Mongoose supports both promises and callbacks. Mongoose provides a straight-forward, schema-based solution to model your application data.
+
 
 ### `To start a project :-` 
 
-1- Run 'npm install react-scripts'
+1- Run 'npm install'
 
 2- Run 'npm start'
